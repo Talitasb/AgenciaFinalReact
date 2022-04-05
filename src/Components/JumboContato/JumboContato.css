@@ -1,0 +1,31 @@
+.header {
+    height: calc(100vh - 150px);
+    background: no-repeat center/cover url("../../assets/img/museu.jpg");
+}
+
+.lead2 {
+    background-color: rgba(238, 234, 234, 0.678);
+    margin: 0;
+   transition:all ease-in-out .3s;
+   max-width: 1500px;
+}
+.caixa-contato{
+    height: 50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.display-4 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: orange;
+    text-shadow: #fdbf16 1px 1px 1px, #1d0707 -1px 1px 1px, #160909 1px -1px 1px, #990909 -1px -1px 1px;
+    text-align: center;
+}
+
+@media(max-width:375px) {
+    .caixa-contato{
+    margin-top: 50px;
+    }
+}
